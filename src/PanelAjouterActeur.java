@@ -51,6 +51,7 @@ public class PanelAjouterActeur extends JPanel implements ActionListener{
 
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() == btnAjout){
+			//Ajout d'un Oiseau
 			Modele.ajouterActeur(nomField.getText(),prenomField.getText(),LocalDate.parse(dateField.getText()));
 		}
 		
