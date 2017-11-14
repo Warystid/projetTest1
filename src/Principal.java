@@ -3,6 +3,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Modele.connect();
+		//Je créé ma Première Fenètre
 		Fenetre maFenetre = new Fenetre();
 		
 	}
